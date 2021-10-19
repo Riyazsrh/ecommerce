@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Scheherazade+New&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+}
+footer {
+  height: 12vh;
+  background-color: rgb(29, 9, 143);
+  color: white;
+  font-family: "Lora", serif;
+}
+header {
+  /* height: 12vh; */
+  background-color: rgb(17, 63, 216);
+  border: 1px solid rgb(15, 7, 7);
+}
+nav {
+  display: flex;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo img{
+   width: 88px;
+   padding: 0 25px;
+}
+nav ul {
+  height: 58px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+nav ul li {
+  list-style: none;
+  padding: 0 23px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: aliceblue;
+}
+nav ul li a:hover {
+ text-decoration: none;
+ font-weight: bold;
+}
+.search{
+  display: flex;
+  align-items: center;
+  
+}
+.search input{
+  width: 493px;
+  height: 23px;
+  border-radius: 5px ;
+  margin: 0 16px 0 56px;
+  padding: 0 12px;
+}
+.container{
+    min-height: calc(100vh - 58px - 12vh);
+}
+.slider{
+  margin:12px auto;
+  width: 80vw;
+  overflow: hidden;
+}
+.card{
+  max-width: 91vw;
+  margin:37px auto;
+  
+}
+.cards{
+  display: flex;
+  overflow: hidden;
+}
+.card h2{
+  font-family: 'Scheherazade New', serif;
+}
+.card-item{
+  display: inline-flex;
+  justify-self: center;
+  flex-direction: column;
+  margin: 0 15px;
+}
